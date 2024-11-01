@@ -1,0 +1,180 @@
+/* Section Styling */
+.section {
+    padding: 4rem 2rem;
+    background-color: #fdfdfd;
+    text-align: center;
+}
+
+/* Heading */
+.portfolio {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    color: #555;
+    letter-spacing: 1px;
+    margin: 0;
+    font-size: 2rem;
+}
+
+.featured {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.5rem;
+    margin-top: 0.5rem;
+    color: #333;
+}
+
+/* Container */
+.container {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+/* Story Details */
+.storyDetails {
+    align-self: flex-end;
+    background-color: rgb(248, 248, 248);
+    text-align: left;
+    max-width: 600px;
+    box-sizing: border-box;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+/* Story Number */
+.storyNumber {
+    font-family: 'Cormorant', serif;
+    font-size: 3rem;
+    color: rgb(181, 139, 97);
+    margin: 0;
+}
+
+/* Story Title */
+.storyTitle {
+    font-family: 'Ephesis', cursive;
+    font-size: 1.5em;
+    font-weight: 500;
+    margin: 0.5rem 0;
+    color: #222;
+}
+
+/* Story Description */
+.storyDescription {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+    max-width: 600px;
+}
+
+/* Story Image */
+.storyImage {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .storyDetails {
+        padding: 40px;
+        text-align: center;
+        max-width: 90%;
+    }
+
+    .storyNumber {
+        font-size: 2.5rem;
+    }
+
+    .storyTitle {
+        font-size: 1.3em;
+    }
+
+    .featured {
+        font-size: 2.2rem;
+    }
+
+    .storyImage {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .section {
+        padding: 3rem 1.5rem;
+    }
+
+    .portfolio {
+        font-size: 1.8rem;
+    }
+
+    .featured {
+        font-size: 2rem;
+    }
+
+    .storyDetails {
+        padding: 30px;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .storyNumber {
+        font-size: 2.2rem;
+    }
+
+    .storyTitle {
+        font-size: 1.2em;
+    }
+
+    .storyDescription {
+        font-size: 0.95rem;
+        line-height: 1.5;
+    }
+
+    .storyImage {
+        max-width: 250px; /* Reduces image size further for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .section {
+        padding: 2rem 1rem;
+    }
+
+    .portfolio {
+        font-size: 1.6rem;
+    }
+
+    .featured {
+        font-size: 1.8rem;
+    }
+
+    .storyDetails {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .storyNumber {
+        font-size: 2rem;
+    }
+
+    .storyTitle {
+        font-size: 1rem;
+    }
+
+    .storyDescription {
+        font-size: 0.9rem;
+        line-height: 1.4;
+    }
+
+    .storyImage {
+        max-width: 180px; /* Smallest size for mobile screens */
+        margin-top: 1rem;
+    }
+}
