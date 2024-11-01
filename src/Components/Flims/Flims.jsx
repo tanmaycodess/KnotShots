@@ -2,7 +2,7 @@ import Styles from './Flims.module.css';
 import D3 from '/photo4.jpg';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
-function Films() {
+function Flims() {
     return (
         <>
 
@@ -55,4 +55,4 @@ function Films() {
     )
 }
 
-export default Films
+export default Flims
