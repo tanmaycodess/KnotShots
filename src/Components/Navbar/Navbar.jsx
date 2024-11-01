@@ -48,7 +48,7 @@ function Navbar({ navbarStyle, color }) {
                         <a className="nav-link" id={styles.nav_link} href="/gallery">PHOTOGRAPHY</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" id={styles.nav_link} href="#">FILMS</a>
+                        <a className="nav-link" id={styles.nav_link} href="/flims">FLIMS</a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" id={styles.nav_link} href="/contact">CONTACT</a>

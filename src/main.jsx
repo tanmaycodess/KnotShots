@@ -6,6 +6,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Contact from './Components/Contact/Contact.jsx'
 import PhotographyPage from './Components/Photography/Photography.jsx'
 import Home from './Pages/Home/Home.jsx'
+import Flims from './Components/Flims/FLims.jsx'
 
 const router = createBrowserRouter([
     {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
             {
                 path: "/gallery",
                 element: <PhotographyPage />,
+            },
+            {
+                path: "/flims",
+                element: <Flims />,
             }
 
         ]
